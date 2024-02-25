@@ -1,0 +1,29 @@
+body {
+    background-image: url(programin.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    text-align: center;
+    word-spacing: 40px;
+}
+
+.box {
+    /* border: 5px solid  brown; */
+    font-weight: 400;
+    width: 300px;
+    min-height: 400px;
+    float: right;
+    margin-right: 20%;
+    text-shadow: 5px 5px 5px grey;
+    line-height: 80px;
+}
+
+.box>a {
+    color: brown;
+}
+
+.a:hover {
+    transform: scale(1.5);
+}

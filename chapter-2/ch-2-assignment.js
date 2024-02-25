@@ -1,19 +1,3 @@
-//chapter - 1
-//q1
-alert("wellcom")
-
-//q2
-alert("Error! please enter valid pasword.")
-
-//q3
-alert("some text\nmore text in a new line"); //copy past from https://stackoverflow.com/questions/1841452/new-line-in-javascript-alert-box
-
-
-//q4
-alert("welcom to js land")
-
-
-
 //chapter - 2
 
 //q-1
@@ -48,4 +32,6 @@ var book="A smarter way to learn JavaScript"
 alert("i am trying to learn from the book " + book);
 
 
-document.write("Yah! I can write HTML content through Java Script")
+// document.write("Yah! I can write HTML content through Java Script" + info )
+
+// document.write(info)
