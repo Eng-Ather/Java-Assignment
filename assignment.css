@@ -1,9 +1,5 @@
 body {
     background-image: linear-gradient(to right, rgb(86, 152, 160), pink);
-    /* background-image: url(programin.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-
 }
 
 .name {
@@ -21,7 +17,7 @@ body {
     text-align: center;
 
     /* float: center;  */
-    margin-right: 20%;
+    margin-left: 20%;
     text-shadow: 5px 5px 5px grey;
     line-height: 80px;
 }
