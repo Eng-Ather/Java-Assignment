@@ -41,14 +41,14 @@ document.write(`<br><br> <b> Q-7 </b> Greeting --- ${o} ${s} ${i}`)
 // 8. Concatenate 'Good' with 'Luck' and 'Have' with 'Fun' to create well wishes, and then display both phrases.
 
 var o ="Good"; var s = "Luck"; var i = "Have"; var j = "fun;"
-document.write(`<br><br> <b> Q-8 </b> well wishes ${o} ${s}   ${i} ${j}`)
+document.write(`<br><br> <b> Q-8 </b> Well Wishes : ${o} ${s}   ${i} ${j}`)
 
 // 9. Combine the strings 'Web', 'Design', and 'Development' to describe a comprehensive skill set, and then print it.
 
 var o ="Web"; var s = "Design"; var i = "Development"
-document.write(`<br><br> <b> Q-9 </b> comprehensive skill set ${o} ${s} ${i}`)
+document.write(`<br><br> <b> Q-9 </b> Comprehensive skill set : ${o} ${s} ${i}`)
 
 // 10. Join 'Artificial', 'Neural', and 'Networks' to form a complex technology term, and then display it.
 
 var o ="Artifical"; var s = "Nural"; var i = "Network"
-document.write(`<br><br> <b> Q-10 </b> technology term ${o} ${s} ${i}`)
+document.write(`<br><br> <b> Q-10 </b> Technology term : ${o} ${s} ${i}`)

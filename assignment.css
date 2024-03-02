@@ -8,15 +8,10 @@ body {
 }
 
 .box {
-    /* border: 2px double rgb(129, 68, 87); */
-    box-shadow: 10px 10px 10px rgb(231, 210, 214);
     border-radius: 40px;
-    font-weight: 400;
+    font-weight: 350;
     width: 600px;
     min-height: auto;
-    text-align: center;
-
-    /* float: center;  */
     margin-left: 20%;
     text-shadow: 5px 5px 5px grey;
     line-height: 80px;
@@ -24,10 +19,6 @@ body {
 
 .box>a {
     color: rgba(165, 42, 42, 0.7);
-}
-
-.a:hover {
-    transform: scale(1.5);
 }
 
 .fix {
