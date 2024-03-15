@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(to right, rgb(86, 152, 160), pink);
+    background-image: linear-gradient(RED ,BLUE);
+    /* background-image: linear-gradient(to right, rgb(86, 152, 160), pink); */
 }
 
 .name {
