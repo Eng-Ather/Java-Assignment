@@ -1,4 +1,8 @@
+//  Q10 : Dispalay the score  percentage of students
 
+// Write a program to store 3 student name in an array . Take another array to store 
+// these student score. Assume the total marks are 500 for each student, dispaly the 
+// score and percentage of students 
 
 var studentName = ["stdent-1" , "student-2" , "student-3"]
 

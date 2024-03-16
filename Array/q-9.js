@@ -1,4 +1,4 @@
-//Q9 : Display the length and elemrnt of array in browser:
+//Q9 : Display the length and element of array in browser:
 
 //Declear and initalize an empty array to store top movies name of 2015. Add movies
 //name one by one in an array. Display the length and elemrnt of array in browser:

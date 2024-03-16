@@ -14,4 +14,4 @@ document.write( "<br><br>Car at first index of array --> " + car[0])
 
 document.write( "<br><br> Last index of array --> " + car.indexOf("Lamborgani"))
 
-document.write( "<br><br>Car at first index of array --> " + car[3])
+document.write( "<br><br>Car at first index of array --> " + car[car.length-1])
