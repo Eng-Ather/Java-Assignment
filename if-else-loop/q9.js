@@ -3,11 +3,11 @@
 
 var char = prompt(`Enter Alphabate`)
 
-document.write(char)
+document.write("You type :" + char)
 
-if (char === a || char === A || char === e || char === E ||
-    char === i || char === I || char === o || char === O || 
-    char === u || char === U) { document.write(`Vowel`) }
-else { document.write(`Constant`) }
+if (char === "a" || char === "A" || char === "e" || char === "E" ||
+    char === "i" || char === "I" || char === "o" || char === "O" || 
+    char === "u" || char === "U") { document.write(` <br><br> <i> Its a Vowel  </i>`) }
+else { document.write(`<br><br> <i> Its a consonant  </i>`) }
 
 

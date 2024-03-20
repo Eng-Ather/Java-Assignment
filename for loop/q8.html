@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>For - Q8</title>
+
+    <!--link for boot strap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <p class="display-2 text-decoration-underline">For Loop</p><br><br>
+
+    <h3> Q8 : Write a loop to print revers of string (lets say "hello"):</h3><br><br>
+
+    <div class="d-flex ">
+      
+        <button class="btn btn-warning" style="height: 40px;">
+            <a href="for.html" class="fw-bolder text-decoration-none">Back</a>
+        </button>
+
+        <div>
+            <br><br>
+            <script>
+                var string = "hello"
+                document.write( "Given string is : " + string)
+
+
+                // document.write(string.length) string lenth
+                
+                document.write("<br><br>Revers value = ")
+
+                for (var i = string.length-1; i >= 0; i--)
+                 {
+                     document.write(string[i] ) 
+                }
+
+
+            </script>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
