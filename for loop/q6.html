@@ -27,38 +27,22 @@
             <br><br>
             <script>
 
-                var a = [0, 1];
 
-                document.write("<br><br>" + a)
+                var initalValue = 0;  //inital elment of series
+                var presentValue = 1; // perivous element of series
+                var updatedValue = 0;     // upadted value
 
-                a[2] = a[0] + a[1]
-                document.write("<br><br>" + a)
+                document.write("<b> Fibonacci series up to 10th term  </b> <br><br>")
 
-                a[3] = a[1] + a[2]
-                document.write("<br><br>" + a)
+                for (var i = 1; i <= 10; i++) 
+                {
 
-                a[4] = a[2] + a[3]
-                document.write("<br><br>" + a)
-
-                a[5] = a[3] + a[4]
-                document.write("<br><br>" + a)
-
-                a[6] = a[4] + a[5]
-                document.write("<br><br>" + a)
-
-
-                
-                for (var i = 1; i <= 10; i++)
-                 {
-
-                    var previous = 0;
-                     var update = 2;
-
-                    a[update] = a[prevous] + a[i]
+                    updatedValue = initalValue + presentValue;
+                    initalValue = presentValue;
+                    presentValue= updatedValue;
+                    document.write(updatedValue + ", ")
 
                 }
-                document.write("<br>" + array)
-
             </script>
         </div>
 
