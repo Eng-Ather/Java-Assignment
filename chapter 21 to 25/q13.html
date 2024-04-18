@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-13</title>
+
+    <!--link for boot strap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <p class="display-2 text-decoration-underline">Chapter 21 to 25</p><br><br>
+
+    <h3> Q13 : Write a program to remove occourance of specified substring from a string :</h3>
+    <h5> String => Java is a popular programming language, created in 1995. </h5>
+    <h5> SubString => created in 1995. </h5>
+    <br><br>
+
+    <div class="d-flex ">
+
+        <button class="btn btn-warning" style="height: 40px;">
+            <a href="ch-21to25.html" class="fw-bolder text-decoration-none">Back</a>
+        </button>
+
+        <div>
+            <br><br>
+            <script>
+
+                var a = String("Java is a popular programming language, created in 1995.")
+                var z = String ("created in 1995. ") 
+                // this is substring which we have to delete
+                
+                var b = a.replace("created in 1995.", " ")
+                // removing substring by replace method
+
+                document.write("Given string => " + a)
+                document.write("<br> length of string => " + a.length)
+
+                document.write("<br><br>after removing substring => " + b)
+                document.write("<br> length of string => " + b.length)
+            </script>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
