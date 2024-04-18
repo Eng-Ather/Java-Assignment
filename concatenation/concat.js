@@ -10,12 +10,12 @@ document.write(`<b> Q-1 </b> Full Name = ${firstName} ${lastName}`)
 
 var city = "New";
 var Name = "York";
-document.write(`<br><br> <b> Q-2 </b> City Name = ${city} ${Name}`)
+document.write(`<br><br> <b> Q-2 </b> City Name =` +city +` ` + Name)
 
 // 3. Define a variable fruit with the value 'apple'. Concatenate it with the string 'pie' to form a dessert, and then print it.
 
 var fruit = "apple";
-document.write(`<br><br> <b> Q-3 </b> Dessert = ${fruit} pie`)
+document.write('<br><br> <b> Q-3 </b> Dessert =' ,  fruit , ' pie')
 
 // 4. Initialize a variable animal with 'black'. Concatenate it with the string 'bird' and display the full animal name.
 
@@ -26,7 +26,7 @@ document.write(`<br><br> <b> Q-4 </b> Full animal name = ${animal} bird`)
 
 var j = "javaScript";
 var f = "is a fun";
-document.write(`<br><br> <b> Q-5 </b> ${j} ${f}`)
+document.write('<br><br> <b> Q-5 </b>' + j + f)
 
 // 6. Concatenate 'Open' with 'Source' and 'Intelligence' to form a technology company's name and show it.
 

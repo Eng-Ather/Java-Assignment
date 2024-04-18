@@ -6,7 +6,7 @@ alert("wellcom")
 alert("Error! please enter valid pasword.")
 
 //q3
-alert("welcom to js land...\n Happy Coding!"); //copy past from https://stackoverflow.com/questions/1841452/new-line-in-javascript-alert-box
+alert("welcom to js land..\nHappy Coding!"); //copy past from https://stackoverflow.com/questions/1841452/new-line-in-javascript-alert-box
 
 
 //q4
